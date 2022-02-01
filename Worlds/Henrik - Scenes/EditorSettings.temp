@@ -1,11 +1,11 @@
 [Positions]
-X Map=1005
+X Map=1007
 Y Map=1000
 [Powers]
-Power0=0
-Power1=0
-Power2=0
-Power3=0
+Power0=1
+Power1=1
+Power2=1
+Power3=1
 Power4=0
 Power5=0
 Power6=0
