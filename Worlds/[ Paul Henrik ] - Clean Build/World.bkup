@@ -1,7 +1,7 @@
 [World]
-Name=Little-red-riding-hood
-Author=+-[ Paul Henrik ]-+
-Description=
+Name=Clean Build
+Author=[ Paul Henrik ]
+Description=wow
 Category A=
 Category B=
 Difficulty A=
@@ -10,6 +10,9 @@ Difficulty C=
 Size=
 Format=4
 HoloFix=True
+New=0
+Clothes=255
+Skin=
 
 [Cutscene Music]
 Intro=15
@@ -78,9 +81,63 @@ Ending=15
 ;
 ; Large           A large level.
 [x995y1000]
-ShiftTouch(B)=True
-ShiftXMap(B)=990
-ShiftYMap(B)=1000
-ShiftAbsoluteTarget(B)=True
-ShiftXPos(B)=21
-ShiftYPos(B)=7
+ShiftXMap(B)=-5
+ShiftXMap(A)=990
+ShiftYMap(A)=1000
+ShiftAbsoluteTarget(A)=True
+ShiftXPos(A)=21
+ShiftYPos(A)=7
+[x990y1000]
+ShiftXPos(A)=12
+ShiftYPos(A)=7
+ShiftXMap(A)=998
+ShiftYMap(A)=1000
+ShiftAbsoluteTarget(A)=True
+ShiftSound(A)=Door
+[x1004y1002]
+ShiftXPos(A)=4
+ShiftYPos(A)=7
+ShiftYMap(A)=1003
+ShiftXMap(A)=1004
+ShiftAbsoluteTarget(A)=True
+ShiftSound(A)=Door
+[x1004y1003]
+ShiftXPos(A)=8
+ShiftYPos(A)=5
+ShiftXMap(A)=1004
+ShiftYMap(A)=1010
+ShiftAbsoluteTarget(A)=True
+ShiftSound(A)=Door
+[x1010y1002]
+ShiftXPos(A)=2
+ShiftYPos(A)=8
+ShiftYMap(A)=1006
+ShiftTouch(A)=True
+ShiftEffect(A)=False
+ShiftVisible(A)=False
+ShiftXMap(A)=1010
+ShiftAbsoluteTarget(A)=True
+[x998y1000]
+ShiftXPos(A)=21
+ShiftYPos(A)=7
+ShiftXMap(A)=990
+ShiftSound(A)=Door
+ShiftYMap(A)=1000
+ShiftAbsoluteTarget(A)=True
+[x1007y1001]
+ShiftSound(A)=None
+ShiftTouch(A)=True
+ShiftEffect(A)=False
+ShiftSave(A)=True
+ShiftVisible(A)=False
+ShiftQuantize(A)=False
+[x1009y1010]
+ShiftXPos(A)=2
+ShiftYPos(A)=8
+ShiftXMap(A)=1009
+ShiftYMap(A)=1005
+ShiftSound(A)=Door
+ShiftTouch(A)=True
+ShiftSave(A)=True
+ShiftAbsoluteTarget(A)=True
+ShiftVisible(A)=False
